@@ -38,9 +38,10 @@ body {
 		}
 	}
 	nav {
+		position: relative;
 		height: 50px;
+		margin-bottom: 5px;
 		text-align: center;
-		color: #fff;
 		background-color: #4e91e9;
 		ol {
 			width: 100%;
@@ -51,10 +52,32 @@ body {
 					justify-content: center;
 					font-size: 30px;
 					text-decoration: none;
+					color: #fff;
+				}
+				.second__main {
+                    position: absolute;
+					height: 568px;
+					width: 100%;
+					margin-left: auto;
+					margin-right: auto;
+					background-color: #4e91e9;
+					li {
+                        padding-top: 50px;
+                        border-top: 2px dotted #000;
+						text-decoration: none;
+                        padding-bottom: 20px;
+						a {
+							text-decoration: none;
+							color: #441010;
+						}
+					}
+                    li:first-child{
+                        border-top: none;
+                    }
 				}
 			}
 		}
-		ol > li:hover > ul {
+		ol > .main__item:hover > .second__main {
 			display: block;
 		}
 	}
