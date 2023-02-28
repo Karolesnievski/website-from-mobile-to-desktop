@@ -39,8 +39,27 @@ body {
     background-color: rgba(32, 32, 32, 0.8);
     z-index: 1;
   }
-  nav ul {
-    display: none;
+  nav {
+    height: 50px;
+    text-align: center;
+    color: #fff;
+    background-color: #4e91e9;
+  }
+  nav ol {
+    width: 100%;
+  }
+  nav ol .main__item .main__href {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    font-size: 30px;
+    text-decoration: none;
   }
   nav ol > li:hover > ul {
     display: block;
