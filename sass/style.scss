@@ -37,4 +37,12 @@ body {
 			z-index: 1;
 		}
 	}
+    nav{
+        ul{
+            display: none;
+        }
+        ol> li:hover > ul  {
+            display: block;
+        }
+    }
 }
