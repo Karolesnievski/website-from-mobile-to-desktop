@@ -49,6 +49,10 @@ body {
   nav ol {
     width: 100%;
   }
+  nav ol .main__item .fa-solid {
+    font-size: 30px;
+    color: red;
+  }
   nav ol .main__item .main__href {
     display: -webkit-box;
     display: -ms-flexbox;

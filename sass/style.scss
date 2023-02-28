@@ -46,6 +46,10 @@ body {
 		ol {
 			width: 100%;
 			.main__item {
+                .fa-solid{
+                    font-size: 30px;
+                    color: red;
+                }
 				.main__href {
 					display: flex;
 					align-items: center;
