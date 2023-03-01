@@ -49,11 +49,6 @@ body {
   nav ol {
     width: 100%;
   }
-  nav ol .main__item .fa-solid {
-    position: absolute;
-    right: 10px;
-    font-size: 30px;
-  }
   nav ol .main__item .main__href {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -67,6 +62,7 @@ body {
     font-size: 30px;
     text-decoration: none;
     color: #fff;
+    cursor: pointer;
   }
   nav ol .main__item .second__main {
     position: absolute;
@@ -76,6 +72,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     background-color: #4e91e9;
+    z-index: 10000;
   }
   nav ol .main__item .second__main li {
     padding-top: 50px;
@@ -90,8 +87,60 @@ body {
   nav ol .main__item .second__main li:first-child {
     border-top: none;
   }
-  nav ol > .main__item:hover > .second__main {
+  nav ol .main__item:hover > .second__main {
     display: block;
+  }
+  .container {
+    width: 280px;
+    margin: 20px auto;
+  }
+  .container .about {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .container .about h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+  }
+  .container .section {
+    position: relative;
+  }
+  .container .section .hero__element {
+    height: 100%;
+    width: 100%;
+    margin: 50px 0;
+    background-image: url("../ing/chess.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .container .section .hero__element .hero__bg {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(32, 32, 32, 0.4);
+  }
+  .container .section .hero__element .hero__text {
+    position: relative;
+    padding: 10px;
+    color: #fff;
+  }
+  .container .section .hero__element .hero__text h2 {
+    text-align: center;
+    font-size: 25px;
+  }
+  footer {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    background-color: #707070;
   }
 }
 /*# sourceMappingURL=style.css.map */
