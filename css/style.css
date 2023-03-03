@@ -168,5 +168,8 @@ body {
   .container {
     width: 400px;
   }
+  footer {
+    margin-bottom: 1px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
