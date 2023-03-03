@@ -130,9 +130,26 @@ body {
 		}
 	}
 footer {
-	font-size: 13px;
 	text-align: center;
+	font-size: 13px;
 	color: #fff;
 	background-color: #707070;
+	
+}
+}
+
+@media (min-width: 375px) {
+	header {
+		height: 250px;
+		background-position: 5px 2px;
+		background-repeat: no-repeat;
+	}
+.container{
+	width: 350px;
+	.section {
+		.hero__element {
+		text-align: center;
+		}
+	}
 }
 }
