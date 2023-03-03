@@ -104,6 +104,7 @@ body {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding-top: 25px;
   }
   .container .about h1 {
     text-align: center;
@@ -116,7 +117,7 @@ body {
   .container .section .hero__element {
     height: 100%;
     width: 100%;
-    margin: 50px 0;
+    margin-bottom: 50px;
     background-image: url("../ing/chess.jpg");
     background-position: center;
     background-repeat: no-repeat;
