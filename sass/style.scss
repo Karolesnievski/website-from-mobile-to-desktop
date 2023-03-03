@@ -153,3 +153,15 @@ footer {
 	}
 }
 }
+
+@media (min-width: 414px) {
+	header {
+		height: 250px;
+		background-position: 1px -7px;
+		background-repeat: no-repeat;
+	}
+.container{
+	width: 400px;
+}
+}
+
