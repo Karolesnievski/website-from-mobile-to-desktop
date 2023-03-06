@@ -66,7 +66,7 @@ body {
   }
   nav ol .main__item .second__main {
     position: absolute;
-    display: block;
+    display: none;
     height: 645px;
     width: 100%;
     margin-left: auto;
@@ -175,6 +175,7 @@ body {
 
 @media (min-width: 768px) {
   .main__item .second__main {
+    min-height: 718px;
     font-size: 30px;
   }
   .main__item .second__main li {
