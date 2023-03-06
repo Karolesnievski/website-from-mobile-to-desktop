@@ -194,4 +194,42 @@ body {
     height: 140px;
   }
 }
+
+@media (min-width: 1024px) {
+  .main__item .second__main {
+    min-height: 1057px;
+    font-size: 50px;
+  }
+  .main__item .second__main li {
+    margin-top: 20px;
+  }
+  .container {
+    height: 1007px;
+    width: 640px;
+  }
+  .container .section {
+    height: 260px;
+  }
+  .container .section .section__first {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .section .section__second {
+    height: 270px;
+  }
+  .container .section .hero__text {
+    font-size: 25px;
+  }
+  .container .section .hero__element h2 {
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .container .section .hero__element p {
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
