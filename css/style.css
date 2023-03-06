@@ -66,7 +66,7 @@ body {
   }
   nav ol .main__item .second__main {
     position: absolute;
-    display: none;
+    display: block;
     height: 645px;
     width: 100%;
     margin-left: auto;
@@ -166,10 +166,28 @@ body {
     background-repeat: no-repeat;
   }
   .container {
-    width: 400px;
+    width: 380px;
   }
   footer {
     margin-bottom: 1px;
+  }
+}
+
+@media (min-width: 768px) {
+  .main__item .second__main {
+    font-size: 30px;
+  }
+  .main__item .second__main li {
+    margin-top: 20px;
+  }
+  .container {
+    height: 665px;
+    width: 640px;
+  }
+  .container .section {
+    height: 130px;
+    width: 640px;
+    margin-bottom: 40px;
   }
 }
 /*# sourceMappingURL=style.css.map */
