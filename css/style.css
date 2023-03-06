@@ -190,5 +190,8 @@ body {
     width: 640px;
     margin-bottom: 40px;
   }
+  .container .section .section__second {
+    height: 140px;
+  }
 }
 /*# sourceMappingURL=style.css.map */
