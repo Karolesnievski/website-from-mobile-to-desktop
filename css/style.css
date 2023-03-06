@@ -13,139 +13,157 @@ body {
   font-family: "PT Serif", serif;
 }
 
-@media (min-width: 300px) {
-  header {
-    position: relative;
-    width: 100%;
-    height: 100px;
-    background-image: url("../ing/herb.png");
-    background-position: 1% 5%;
-    background-size: cover;
-  }
-  header h1 {
-    position: relative;
-    top: 30%;
-    text-align: center;
-    color: #fff;
-    z-index: 1000;
-  }
-  header h1 span {
-    color: #d41919;
-  }
-  header .img__bg {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(32, 32, 32, 0.8);
-    z-index: 1;
-  }
-  nav {
-    position: relative;
-    height: 50px;
-    margin-bottom: 5px;
-    text-align: center;
-    background-color: #4e91e9;
-  }
-  nav ol {
-    width: 100%;
-  }
-  nav ol .main__item .main__href {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    font-size: 30px;
-    text-decoration: none;
-    color: #fff;
-    cursor: pointer;
-  }
-  nav ol .main__item .second__main {
-    position: absolute;
-    display: none;
-    height: 645px;
-    width: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    background-color: #4e91e9;
-    z-index: 10000;
-  }
-  nav ol .main__item .second__main li {
-    padding-top: 50px;
-    border-top: 2px dotted #000;
-    text-decoration: none;
-    padding-bottom: 20px;
-  }
-  nav ol .main__item .second__main li a {
-    text-decoration: none;
-    color: #441010;
-  }
-  nav ol .main__item .second__main li:first-child {
-    border-top: none;
-  }
-  nav ol .main__item:hover > .second__main {
-    display: block;
-  }
-  .container {
-    width: 280px;
-    margin: 20px auto;
-  }
-  .container .about {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    padding-top: 25px;
-  }
-  .container .about h1 {
-    text-align: center;
-    margin-bottom: 30px;
-    font-size: 30px;
-  }
-  .container .section {
-    position: relative;
-  }
-  .container .section .hero__element {
-    height: 100%;
-    width: 100%;
-    margin-bottom: 50px;
-    background-image: url("../ing/chess.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-  }
-  .container .section .hero__element .hero__bg {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    background-color: rgba(32, 32, 32, 0.4);
-  }
-  .container .section .hero__element .hero__text {
-    position: relative;
-    padding: 10px;
-    color: #fff;
-  }
-  .container .section .hero__element .hero__text h2 {
-    text-align: center;
-    font-size: 25px;
-  }
-  footer {
-    text-align: center;
-    font-size: 13px;
-    color: #fff;
-    background-color: #707070;
-  }
+header {
+  position: relative;
+  width: 100%;
+  height: 100px;
+  background-image: url("../ing/herb.png");
+  background-position: 1% 5%;
+  background-size: cover;
 }
 
-@media (min-width: 375px) {
+header h1 {
+  position: relative;
+  top: 30%;
+  text-align: center;
+  color: #fff;
+  z-index: 1000;
+}
+
+header h1 span {
+  color: #d41919;
+}
+
+header .img__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(32, 32, 32, 0.8);
+  z-index: 1;
+}
+
+nav {
+  position: relative;
+  height: 50px;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: #4e91e9;
+}
+
+nav ol {
+  width: 100%;
+}
+
+nav ol .main__item .main__href {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+nav ol .main__item .second__main {
+  position: absolute;
+  display: none;
+  height: 645px;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #4e91e9;
+  z-index: 10000;
+}
+
+nav ol .main__item .second__main li {
+  padding-top: 50px;
+  border-top: 2px dotted #000;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+nav ol .main__item .second__main li a {
+  text-decoration: none;
+  color: #441010;
+}
+
+nav ol .main__item .second__main li:first-child {
+  border-top: none;
+}
+
+nav ol .main__item:hover > .second__main {
+  display: block;
+}
+
+.container {
+  width: 280px;
+  margin: 20px auto;
+}
+
+.container .about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 25px;
+}
+
+.container .about h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 30px;
+}
+
+.container .section {
+  position: relative;
+}
+
+.container .section .hero__element {
+  height: 100%;
+  width: 100%;
+  margin-bottom: 50px;
+  background-image: url("../ing/chess.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container .section .hero__element .hero__bg {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(32, 32, 32, 0.4);
+}
+
+.container .section .hero__element .hero__text {
+  position: relative;
+  padding: 10px;
+  color: #fff;
+}
+
+.container .section .hero__element .hero__text h2 {
+  text-align: center;
+  font-size: 25px;
+}
+
+footer {
+  text-align: center;
+  font-size: 13px;
+  color: #fff;
+  background-color: #707070;
+}
+
+@media (min-width: 375px) and (max-width: 413px) {
   header {
     height: 250px;
     background-position: 5px 2px;
@@ -159,7 +177,7 @@ body {
   }
 }
 
-@media (min-width: 414px) {
+@media (min-width: 414px) and (max-width: 767px) {
   header {
     height: 250px;
     background-position: 1px -7px;
@@ -173,7 +191,7 @@ body {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .main__item .second__main {
     min-height: 718px;
     font-size: 30px;
@@ -195,7 +213,7 @@ body {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (max-width: 1199px) {
   .main__item .second__main {
     min-height: 1057px;
     font-size: 50px;
@@ -221,15 +239,43 @@ body {
   .container .section .section__second {
     height: 270px;
   }
-  .container .section .hero__text {
+  .container .section .hero__text p {
+    margin-top: 20px;
     font-size: 25px;
   }
-  .container .section .hero__element h2 {
-    font-size: 50px;
-    font-weight: bold;
+}
+
+@media (min-width: 1200px) {
+  nav {
+    background-color: #e66060;
   }
-  .container .section .hero__element p {
-    margin-top: 20px;
+  nav ol {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  nav ol .main__item .main__href {
+    margin-left: 10px;
+  }
+  nav ol .main__item .second__main {
+    display: block;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row nowrap;
+            flex-flow: row nowrap;
+    height: 0px;
+  }
+  nav ol .main__item .second__main li {
+    margin-left: 200px;
+    font-size: 50px;
+    list-style: none;
+    border-top: none;
+  }
+  nav ol .main__item:hover > .second__main {
+    display: none;
   }
 }
 /*# sourceMappingURL=style.css.map */
